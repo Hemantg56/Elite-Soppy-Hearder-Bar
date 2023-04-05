@@ -1,0 +1,24 @@
+@media (max-width:600px) {
+    header {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .subheader .sea {
+        width: 100%;
+        padding-left: 10px;
+        padding-top: -10px;
+    }
+    .subheader .sea input {
+        width: 86%;
+        margin-right: 10px;
+    }
+    .subheader .elite a {
+        padding-left: 30px;
+        font-size: 35px;
+    }
+    .subheader .elite span {
+        font-size: 35px;
+        padding: 2px 15px;
+    }
+}
